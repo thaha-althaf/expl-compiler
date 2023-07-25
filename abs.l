@@ -6,6 +6,7 @@
 	#include "abs.h"
 
 	int number;
+        int yyerror(char const *s);
 %}
 
 %option yylineno
